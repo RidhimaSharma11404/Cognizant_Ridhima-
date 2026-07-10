@@ -9,7 +9,7 @@ This project demonstrates the basic use of Spring Core with XML-based configurat
 An airline website needs to support booking across multiple countries. Each country has a two-character ISO code and a full name. This assignment demonstrates how to:
 
 - Define a `Country` bean in an XML configuration.
-- Load the bean using Spring’s `ApplicationContext`.
+- Load the bean using Spring's `ApplicationContext`.
 - Use logging to trace constructor and method invocations.
 
 ---
@@ -134,7 +134,7 @@ public class Country {
 
 ```
 
-### ountry.xml – Spring Configuration File
+### country.xml – Spring Configuration File
 
 ```xml
 
@@ -190,7 +190,7 @@ public class SpringLearnApplication {
 - **Output in terminal -**
 
 ```bash
-"C:\Program Files\Java\jdk-21\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.2\lib\idea_rt.jar=51214" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\DESKTOP\Desktop\01__Digital_Narture_4.0\Week4_Spring REST using Spring Boot 3\Exercise 02 - Hands-on-4 - Spring Core - Load Country from Spring Configuration XML\target\classes;C:\Users\DESKTOP\.m2\repository\org\springframework\spring-context\7.0.0-M6\spring-context-7.0.0-M6.jar;C:\Users\DESKTOP\.m2\repository\org\springframework\spring-aop\7.0.0-M6\spring-aop-7.0.0-M6.jar;C:\Users\DESKTOP\.m2\repository\org\springframework\spring-beans\7.0.0-M6\spring-beans-7.0.0-M6.jar;C:\Users\DESKTOP\.m2\repository\org\springframework\spring-core\7.0.0-M6\spring-core-7.0.0-M6.jar;C:\Users\DESKTOP\.m2\repository\commons-logging\commons-logging\1.3.5\commons-logging-1.3.5.jar;C:\Users\DESKTOP\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\DESKTOP\.m2\repository\org\springframework\spring-expression\7.0.0-M6\spring-expression-7.0.0-M6.jar;C:\Users\DESKTOP\.m2\repository\io\micrometer\micrometer-observation\1.15.1\micrometer-observation-1.15.1.jar;C:\Users\DESKTOP\.m2\repository\io\micrometer\micrometer-commons\1.15.1\micrometer-commons-1.15.1.jar;C:\Users\DESKTOP\.m2\repository\org\slf4j\slf4j-api\2.1.0-alpha1\slf4j-api-2.1.0-alpha1.jar;C:\Users\DESKTOP\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\DESKTOP\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar" com.cognizant.springlearn.SpringLearnApplication
+"C:\Program Files\Java\jdk-21\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.2\lib\idea_rt.jar=51214" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\DESKTOP\Desktop\01__Digital_Nurture_5.0\Week3_Spring REST using Spring Boot 3\Exercise 02 - Hands-on-4 - Spring Core - Load Country from Spring Configuration XML\target\classes;C:\Users\DESKTOP\.m2\repository\org\springframework\spring-context\7.0.0-M6\spring-context-7.0.0-M6.jar;C:\Users\DESKTOP\.m2\repository\org\springframework\spring-aop\7.0.0-M6\spring-aop-7.0.0-M6.jar;C:\Users\DESKTOP\.m2\repository\org\springframework\spring-beans\7.0.0-M6\spring-beans-7.0.0-M6.jar;C:\Users\DESKTOP\.m2\repository\org\springframework\spring-core\7.0.0-M6\spring-core-7.0.0-M6.jar;C:\Users\DESKTOP\.m2\repository\commons-logging\commons-logging\1.3.5\commons-logging-1.3.5.jar;C:\Users\DESKTOP\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\DESKTOP\.m2\repository\org\springframework\spring-expression\7.0.0-M6\spring-expression-7.0.0-M6.jar;C:\Users\DESKTOP\.m2\repository\io\micrometer\micrometer-observation\1.15.1\micrometer-observation-1.15.1.jar;C:\Users\DESKTOP\.m2\repository\io\micrometer\micrometer-commons\1.15.1\micrometer-commons-1.15.1.jar;C:\Users\DESKTOP\.m2\repository\org\slf4j\slf4j-api\2.1.0-alpha1\slf4j-api-2.1.0-alpha1.jar;C:\Users\DESKTOP\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\DESKTOP\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar" com.cognizant.springlearn.SpringLearnApplication
 
 SLF4J(I): Connected with provider of type [ch.qos.logback.classic.spi.LogbackServiceProvider]
 17:22:17.245 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext -- Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@649d209a
@@ -205,4 +205,4 @@ Process finished with exit code 0
 ```
 - **Screenshot -**
 
-![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week4_Spring%20REST%20using%20Spring%20Boot%203/Exercise%2002%20-%20Hands-on-4%20-%20Spring%20Core%20-%20Load%20Country%20from%20Spring%20Configuration%20XML/Output_Screenshot/output.png?raw=true)
+![output](Output_Screenshot/output.png)

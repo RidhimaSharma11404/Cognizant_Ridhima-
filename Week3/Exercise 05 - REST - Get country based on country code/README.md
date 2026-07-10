@@ -47,7 +47,7 @@ GET http://localhost:8080/countries/in
 
 ## Output Screenshot
 
-![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week4_Spring%20REST%20using%20Spring%20Boot%203/Exercise%2005%20-%20REST%20-%20Get%20country%20based%20on%20country%20code/Output_Screenshot/Output.png?raw=true)
+![output](Output_Screenshot/Output.png)
 
 ## 📝 Features
 
@@ -193,7 +193,7 @@ GET http://localhost:8080/countries/in
 
 ```
 
-### Coutry.java - Model class 
+### Country.java - Model class 
 
 ```java
 package com.cognizant.spring_learn.model;
@@ -231,7 +231,7 @@ public class Country {
 
 ```
 
-### CoutryList.java - Wrapper for Country List 
+### CountryList.java - Wrapper for Country List 
 
 ```java
 package com.cognizant.spring_learn.model;
@@ -257,7 +257,7 @@ public class CountryList {
 
 ```
 
-### CoutryService.java - Service Class
+### CountryService.java - Service Class
 
 ```java
 package com.cognizant.spring_learn.service;
@@ -302,7 +302,7 @@ public class CountryService {
 
 ```
 
-### CoutryController.java - Controller class 
+### CountryController.java - Controller class 
 
 ```java
 package com.cognizant.spring_learn.controller;

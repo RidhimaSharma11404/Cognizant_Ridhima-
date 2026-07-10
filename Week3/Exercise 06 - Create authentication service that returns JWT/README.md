@@ -77,7 +77,7 @@ curl -u user:pwd http://localhost:8090/authenticate
 
 ### Screenshot 
 
-![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week4_Spring%20REST%20using%20Spring%20Boot%203/Exercise%2006%20-%20Create%20authentication%20service%20that%20returns%20JWT/Output_Screenshot/Output.png?raw=true)
+![output](Output_Screenshot/Output.png)
 
 
 ## Codes
