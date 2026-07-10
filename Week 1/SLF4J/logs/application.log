@@ -1,0 +1,11 @@
+2026-07-02 22:14:42.179 [com.example.LoggingExample.main()] ERROR com.example.LoggingExample - This is an error message
+2026-07-02 22:14:42.187 [com.example.LoggingExample.main()] ERROR com.example.LoggingExample - Caught an arithmetic exception: / by zero
+java.lang.ArithmeticException: / by zero
+	at com.example.LoggingExample.main(LoggingExample.java:33)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:279)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-07-02 22:14:42.189 [com.example.LoggingExample.main()] WARN  com.example.LoggingExample - This is a warning message
+2026-07-02 22:14:42.190 [com.example.LoggingExample.main()] WARN  com.example.LoggingExample - Disk usage is at 85% — consider freeing space
+2026-07-02 22:14:42.191 [com.example.LoggingExample.main()] INFO  com.example.LoggingExample - Application started successfully
+2026-07-02 22:14:42.191 [com.example.LoggingExample.main()] INFO  com.example.LoggingExample - Processing user request for userId=42
+2026-07-02 22:14:42.191 [com.example.LoggingExample.main()] DEBUG com.example.LoggingExample - Entering calculateTotal() with params: items=5, discount=0.1
